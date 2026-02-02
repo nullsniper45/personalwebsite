@@ -19,7 +19,7 @@
   /* padding: 10px; */
   border-radius: 50%;
   border: 14px solid #f1f1f1;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
 }
 
 .profile-image {
@@ -47,7 +47,7 @@
 }
 
 .profile-name {
-  /* font-family: "Roboto Mono", monospace; */
+  font-family: "Inter", sans-serif;
   font-size: 3rem;
   font-weight: 600;
   margin: 0.5rem 0;
@@ -65,12 +65,12 @@
 }
 
 .profile-actions .btn {
-  padding: 12px 28px;
+  padding: 10px 28px;
   font-size: 16px;
   font-weight: 600;
   border-radius: 30px;
   cursor: pointer;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
   border: 2px solid transparent;
 }
 

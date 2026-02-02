@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import logo1 from "../assets/logo1.png";
 import logo2 from "../assets/logo2.png";
 import { Link } from "react-router-dom";
@@ -26,9 +26,9 @@ function Navbar( {darkMode, setDarkMode}) {
             alt="Logo"
             height="40"
           ></img>
-          <a className="navbar-brand mx-3" href="#">
+          <Link className="navbar-brand mx-3" href="#">
             Nitheesh
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -43,24 +43,24 @@ function Navbar( {darkMode, setDarkMode}) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item mx-3">
-                <a className="nav-link" aria-current="page" to="#">
+                <Link className="nav-link" aria-current="page" to="/home">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link" aria-current="page" to="#">
+                <Link className="nav-link" aria-current="page" to="/resume">
                   Resume
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link" aria-current="page" to="#">
+                <Link className="nav-link" aria-current="page" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-3 d-flex align-items-center gap-2">
                 <span className="nav-link theme-item">Theme</span>
