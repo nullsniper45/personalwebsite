@@ -11,34 +11,32 @@ export default function Resume() {
         <div class="column">
           <h2 class="section-title">Education</h2>
 
-          <TimelineCard
-            year="2009"
-            college="MallaReddy Institute of Technology and Sciences"
-            role="UX Designer"
-            description="Duis posuere, quam non imperdiet egestas, eros enim mattis mauris,
-              in posuere lacus arcu quis felis. Etiam interdum erat non enim
-              venenatis fermentum."
-          />
-
-          <div class="timeline-item">
-            <div class="timeline-date-pill">2008</div>
-            <div class="timeline-meta">University of Studies</div>
-            <h3 class="timeline-title">Graphic Design</h3>
+          <div class="timeline-item wide-date">
+            <div class="timeline-date-pill">2017-21</div>
+            <div class="timeline-meta">
+              Mallareddy Institute of Technology and sciences
+            </div>
+            <h3 class="timeline-title">Computer Science & Engineering</h3>
             <p class="timeline-text">
-              Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis
-              iaculis, feugiat risus quis, aliquet urna. Quisque fringilla
-              mollis risus, eu pulvinar dolor.
+              Persued my Bachelor's degree in computer science and engineering
+              from esteemed MRITS, Secundrabad with an aggregate of 7.41 CGPa
             </p>
           </div>
 
+          <TimelineCard
+            year="2017"
+            college="Narayana Junior College"
+            role="MPC"
+            description="Persued my Intermediate education from Narayan junior College, Hyderabad in MPC with an aggregate oof 96.4%"
+          />
+
           <div class="timeline-item">
-            <div class="timeline-date-pill">2007</div>
-            <div class="timeline-meta">University of Studies</div>
-            <h3 class="timeline-title">Frontend Development</h3>
+            <div class="timeline-date-pill">2015</div>
+            <div class="timeline-meta">Sharada High School</div>
+            <h3 class="timeline-title">SSC</h3>
             <p class="timeline-text">
-              Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor
-              aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in,
-              lobortis ante.
+              FInished my schooling from Sharada High School, Nagarkurnool, with
+              an aggregate of 9.7 CGPA.
             </p>
           </div>
         </div>
@@ -47,35 +45,33 @@ export default function Resume() {
           <h2 class="section-title">Experience</h2>
 
           <div class="timeline-item wide-date">
-            <div class="timeline-date-pill">2016 - Current</div>
-            <div class="timeline-meta">Rolling Thunder</div>
-            <h3 class="timeline-title">Lead UI/UX Designer</h3>
+            <div class="timeline-date-pill">2021 - 2023</div>
+            <div class="timeline-meta">Infosys</div>
+            <h3 class="timeline-title">Senior Systems Engineer</h3>
             <p class="timeline-text">
-              Praesent dignissim sollicitudin justo, sed elementum quam lacinia
-              quis. Phasellus eleifend tristique posuere. Sed vitae dui nec
-              magna.
+              Worked as an BackEnd Developer, Executed development tasks with
+              100% SLA adherence, establishing a strong foundation in
+              banking-grade software reliability. Developed API endpoints from
+              scratch following Test-Driven Development (TDD) principles.
+              Optimized service calls and data structures to reduce
+              organizational costs. Wrote comprehensive unit tests to ensure
+              code reliability and high accuracy in production.
             </p>
           </div>
 
           <div class="timeline-item wide-date">
-            <div class="timeline-date-pill">2013 - 2016</div>
-            <div class="timeline-meta">Locost Accessories</div>
-            <h3 class="timeline-title">Senior UI/UX Designer</h3>
+            <div class="timeline-date-pill">2023 - 2025</div>
+            <div class="timeline-meta">Infosys</div>
+            <h3 class="timeline-title">Senior Systems Engineer</h3>
             <p class="timeline-text">
-              Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae
-              nulla tristique, ornare felis id, congue libero. Nam volutpat
-              euismod quam.
-            </p>
-          </div>
-
-          <div class="timeline-item wide-date">
-            <div class="timeline-date-pill">2011 - 2013</div>
-            <div class="timeline-meta">Sagebrush</div>
-            <h3 class="timeline-title">Junior UI/UX Designer</h3>
-            <p class="timeline-text">
-              Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu,
-              congue vitae nunc ac, sodales ultricies diam. Nullam justo leo,
-              tincidunt sit amet.
+              During my tenure on an enterprise-level Intel project, 
+              I progressed into a role focused on the design and optimization of large-scale backend systems. 
+              I spearheaded efforts to enhance application efficiency, 
+              successfully achieving a ~50% reduction in API response times through meticulous backend tuning. 
+              My technical contributions included implementing messaging queues for seamless asynchronous communication and 
+              integrating Elasticsearch to provide high-speed search capabilities across the platform.
+              To ensure system reliability and security, I utilized AWS CloudWatch for real-time performance monitoring, 
+              implemented JWT-based authentication, and maintained a high standard of code quality through robust unit testing with Mockito.
             </p>
           </div>
         </div>
@@ -87,16 +83,16 @@ export default function Resume() {
           <h2 className="section-title">Certificates</h2>
           <div className="grid-layout">
             <CertificateCard
-              logo="{less}"
-              title="Psychology of Interaction Design"
-              id="XXXX"
-              date="19 April 2018"
+              logo="Java"
+              title="Professional Java Developer"
+              id="Infosys"
+              date="21 January 2021"
             />
             <CertificateCard
-              logo="jQuery"
-              title="Psychology of Interaction Design"
-              id="XXXX"
-              date="19 April 2018"
+              logo="SpringBoot"
+              title="Professional Springboot Devloper"
+              id="Infosys"
+              date="7 April 2021"
             />
           </div>
         </section>
@@ -104,13 +100,13 @@ export default function Resume() {
         {/* Skills Section */}
         <div className="grid-layout">
           <section className="section">
-            <h2 className="section-title">Design Skills</h2>
-            <SkillBar name="UI/UX Design" level={75} />
-            <SkillBar name="Graphic Design" level={85} />
+            <h2 className="section-title">Coding Skills</h2>
+            <SkillBar name="Java" level={95} />
+            <SkillBar name="SpringBoot" level={95} />
           </section>
 
           <section className="section">
-            <h2 className="section-title">Coding Skills</h2>
+            <h2 className="section-title">Design Skills</h2>
             <SkillBar name="HTML / CSS" level={100} />
             <SkillBar name="JavaScript" level={90} />
           </section>
@@ -127,7 +123,7 @@ const CertificateCard = ({ logo, title, id, date }) => (
     </div>
     <div className="certificate-info">
       <h3>{title}</h3>
-      <p className="id">Membership ID: {id}</p>
+      <p className="id">Company: {id}</p>
       <p className="date">{date}</p>
     </div>
   </div>
@@ -144,8 +140,6 @@ const SkillBar = ({ name, level }) => (
     </div>
   </div>
 );
-
-
 
 function TimelineCard({ year, college, role, description }) {
   return (

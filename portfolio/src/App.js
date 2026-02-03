@@ -6,6 +6,7 @@ import { useState } from "react";
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -33,6 +34,7 @@ function App() {
         <Route path="/resume" element={<Resume darkMode = {darkMode} setDarkMode = {setDarkMode}/>} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer darkMode = {darkMode} setDarkMode = {setDarkMode}/>
     </BrowserRouter>
   );
 }

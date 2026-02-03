@@ -69,6 +69,7 @@
   margin: 0 0 8px 0;
   font-size: 1.2rem;
   font-weight: 700;
+  color: #888;
 }
 
 .info-text p {
@@ -83,6 +84,7 @@
 }
 
 .form-title {
+  color: #888;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 30px;

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/HeroSection.css";
 import hero from "../assets/heroimg.jpg";
+import { Link } from "react-router-dom";
 
 function HeroSection({ darkMode, setDarkMode }) {
   const titles = ["Web Developer", "Full Stack Developer"];
@@ -64,8 +65,10 @@ function HeroSection({ darkMode, setDarkMode }) {
           </p>
 
           <div className="profile-actions">
-            <button className="btn btn-primary">Download CV</button>
-            <button className="btn btn-secondary">Contact</button>
+            <a href="/Sainitheesh_Resume.pdf" download>
+              <button className="btn btn-primary" >Download CV</button>
+            </a>
+            <Link to="/contact" className="btn btn-secondary">Contact</Link>
           </div>
         </div>
       </section>
