@@ -65,7 +65,7 @@ function HeroSection({ darkMode, setDarkMode }) {
           </p>
 
           <div className="profile-actions">
-            <a href="/Sainitheesh_Resume.pdf" download>
+            <a href={process.env.PUBLIC_URL + "/Sainitheesh_Resume.pdf"} download="Sainitheesh_Resume.pdf">
               <button className="btn btn-primary" >Download CV</button>
             </a>
             <Link to="/contact" className="btn btn-secondary">Contact</Link>

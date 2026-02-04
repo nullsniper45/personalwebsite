@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
@@ -19,7 +19,7 @@ function App() {
     //     setDarkMode = {setDarkMode}
     //   />
     // </div>
-    <BrowserRouter>
+    <Router>
     <Navbar 
         darkMode = {darkMode}
         setDarkMode = {setDarkMode}
@@ -35,7 +35,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer darkMode = {darkMode} setDarkMode = {setDarkMode}/>
-    </BrowserRouter>
+    </Router>
   );
 }
 
