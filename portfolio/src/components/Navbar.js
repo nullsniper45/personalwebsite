@@ -26,7 +26,7 @@ function Navbar( {darkMode, setDarkMode}) {
             alt="Logo"
             height="40"
           ></img>
-          <Link className="navbar-brand mx-3" href="#">
+          <Link className="navbar-brand mx-3" to="/home">
             Sainitheesh Reddy
           </Link>
           <button
