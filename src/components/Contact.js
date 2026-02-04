@@ -132,18 +132,21 @@ export default function Contact() {
                   name="from_name"
                   placeholder="Full Name"
                   className="input-field"
+                  required
                 />
                 <input
                   type="email"
                   name="reply_to"
                   placeholder="Email Address"
                   className="input-field"
+                  required
                 />
                 <input
                   type="text"
                   name="subject"
                   placeholder="Subject"
                   className="input-field"
+                  required
                 />
               </div>
 
@@ -152,6 +155,7 @@ export default function Contact() {
                   placeholder="Message"
                   name="message"
                   className="textarea-field"
+                  required
                 ></textarea>
               </div>
 

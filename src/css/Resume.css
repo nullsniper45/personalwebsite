@@ -73,20 +73,6 @@
 } */
 
 /* The Date Badge (e.g., "2009", "2016 - Current") */
-.timeline-date {
-  position: absolute;
-  left: -15px; /* Pulls it left to center on the border line */
-  top: 0;
-  /* background: #fff; */
-  color: #007bff;
-  border: 1px solid #007bff;
-  padding: 4px 15px;
-  border-radius: 20px; /* Pill shape */
-  font-size: 14px;
-  font-weight: 600;
-  /* Ensure it sits on top of the vertical line */
-  z-index: 1;
-}
 
 /* Container for the text content to align nicely next to date */
 .timeline-content {
@@ -196,9 +182,9 @@
 /* --- Certificate Cards --- */
 .certificate-card {
   display: flex;
-  background: #fff;
+  /* background: #fff; */
   border: 1px solid #eee;
-  border-radius: var(--border-radius);
+  border-radius: 5px;
   overflow: hidden;
   transition: var(--transition);
   cursor: pointer;
@@ -208,11 +194,11 @@
 .certificate-card:hover {
   transform: translateY(-5px);
   transition: all 0.4s ease;;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
 }
 
 .certificate-logo {
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   padding: 30px;
   display: flex;
   align-items: center;
@@ -230,8 +216,15 @@
 .certificate-info h3 {
   margin: 0 0 8px 0;
   font-size: 1rem;
-  color: var(--text-dark);
+  color: #666;
 }
+
+.certificate-info p {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color: #727272;
+}
+
 
 .certificate-info .id, .certificate-info .date {
   margin: 2px 0;
@@ -261,7 +254,7 @@
 
 .progress-fill {
   height: 100%;
-  background-color: var(--primary-blue);
+  background-color: #4caf50;
   border-radius: 10px;
   transition: width 1s ease-in-out;
 }
