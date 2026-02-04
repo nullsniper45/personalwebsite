@@ -27,7 +27,7 @@ function Navbar( {darkMode, setDarkMode}) {
             height="40"
           ></img>
           <Link className="navbar-brand mx-3" href="#">
-            Nitheesh
+            Sainitheesh Reddy
           </Link>
           <button
             className="navbar-toggler"

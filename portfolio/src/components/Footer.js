@@ -21,7 +21,7 @@ const Footer = ({darkMode, setDarkMode}) => {
 
         {/* Copyright Information */}
         <div className="copyright-text">
-          © {currentYear} All rights reserved.
+          © {currentYear} Sainitheesh Reddy. All rights reserved.
         </div>
 
       </div>
