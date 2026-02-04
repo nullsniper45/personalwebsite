@@ -3,8 +3,10 @@ import "../css/HeroSection.css";
 import hero from "../assets/heroimg.jpg";
 import { Link } from "react-router-dom";
 
+
+const titles = ["Web Developer", "Full Stack Developer"];
+
 function HeroSection({ darkMode, setDarkMode }) {
-  const titles = ["Web Developer", "Full Stack Developer"];
   const [text, setText] = useState("");
   const [titleIndex, setTitleIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -36,7 +38,7 @@ function HeroSection({ darkMode, setDarkMode }) {
     }
 
     return () => clearTimeout(timeout);
-  }, [charIndex, isDeleting, titleIndex, titles]);
+  }, [charIndex, isDeleting, titleIndex]);
 
   return (
     <>
